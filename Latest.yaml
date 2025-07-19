@@ -887,7 +887,7 @@ variables:
      {% endif%}
     {% endif%}
     {{dir}}
-  video: /api/frigate/frigate//notifications/{{id}}/{{camera}}/clip.mp4
+  video: /api/frigate/frigate/notifications/{{id}}/{{camera}}/clip.mp4
   video_local: "{{root_dir}}{{sub_dir}}{{id}}_clip.mp4"
   thumb: /api/frigate/frigate/notifications/{{id}}/thumbnail.jpg
   image: /api/frigate/frigate/notifications/{{id}}/snapshot.jpg
